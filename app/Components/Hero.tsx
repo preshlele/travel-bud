@@ -15,7 +15,7 @@ const Hero = () => {
               <span>Your Imagination Is</span>
               <span> Your Only Limit</span>
             </div>
-            <div className="flex flex-col items-center regular-18 mt-16">
+            <div className="flex flex-col items-center regular-16  mt-16">
               <span>
                 We always try to make our customers happy. We provide all kinds
                 of facilities.

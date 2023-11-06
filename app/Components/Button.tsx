@@ -14,7 +14,7 @@ const Button = ({title, icon, type, variant}: ButtonProps) => {
     className={`flexCenter gap-3 rounded-lg border ${variant}`}
     >
         {icon}
-        <span className='regular-18 whitespace-nowrap'>{title}</span>
+        <span className='regular-14 whitespace-nowrap'>{title}</span>
     </button>
   )
 }
