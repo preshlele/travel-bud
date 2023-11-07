@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="relative overflow-hidden">{children}</main>
+        <main className=" overflow-hidden">{children}</main>
         {/* <Card /> */}
         <Footer />
       </body>

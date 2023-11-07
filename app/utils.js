@@ -1,3 +1,7 @@
+import { FaPaperPlane } from 'react-icons/fa';
+import { BiHotel } from "react-icons/bi";
+import { BsTicket } from "react-icons/bs";
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
@@ -83,3 +87,27 @@ export const SOCIALS = {
     "/wordpress.svg",
   ],
 };
+
+// cards data
+
+export const cardsData = [
+  {
+    index: 1,
+    title: "Ticket Booking",
+    description:
+      "We book all kinds of national or international tickets for your destination.",
+    icon: <BsTicket size={25} className="text-green-500" />,
+  },
+  {
+    index: 2,
+    title: "Hotel Booking",
+    description: "You can easily book according to your budget on our website.",
+    icon: <BiHotel size={25} className="text-sky-600" />,
+  },
+  {
+    index: 3,
+    title: "Tour Plan",
+    description: "We provide you the best plan within a short time.",
+    icon: <FaPaperPlane size={25} className="text-orange-700" />,
+  },
+];
