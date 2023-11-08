@@ -1,6 +1,7 @@
 import { FaPaperPlane } from 'react-icons/fa';
-import { BiHotel } from "react-icons/bi";
-import { BsTicket } from "react-icons/bs";
+import { BiHotel, BiHistory } from "react-icons/bi";
+import { BsTicket, BsCalendarCheck, BsFillPinMapFill } from "react-icons/bs";
+import {AiOutlineBarChart} from "react-icons/ai"
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -109,5 +110,35 @@ export const cardsData = [
     title: "Tour Plan",
     description: "We provide you the best plan within a short time.",
     icon: <FaPaperPlane size={25} className="text-orange-700" />,
+  },
+];
+
+
+// utils.js
+
+export const countUp = [
+  {
+    index: 1,
+    icon: <BsCalendarCheck size={25} />,
+    title: "15",
+    description: "Years of experience",
+  },
+  {
+    index: 2,
+    icon: <AiOutlineBarChart size={25} />,
+    title: "15000",
+    description: "Happy Travellers",
+  },
+  {
+    index: 3,
+    icon: <BsFillPinMapFill size={25} />,
+    title: "650",
+    description: "Places Visited",
+  },
+  {
+    index: 4,
+    icon: <BiHistory size={25} />,
+    title: "2000",
+    description: "Travel History",
   },
 ];
